@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "expense-tracker-cli"
+version = "1.0.0"
+description = "A lightweight personal expense tracker CLI built with Python and pluggable database storage."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "Developer" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Office/Business :: Financial :: Accounting",
+]
+
+[project.optional-dependencies]
+postgres = [
+    "psycopg>=3.1.0"
+]
+
+[project.scripts]
+expense-tracker = "src.cli:run_cli"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
