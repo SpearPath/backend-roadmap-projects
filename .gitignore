@@ -1,0 +1,28 @@
+# Python cache & build files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Environment configs & secrets
+.env
+.env.local
+
+# Storage & local database files (keep your repo clean)
+*.db
+*.sqlite3
+tasks.json
+temp_tasks.json
+test_tasks.json
+
+# IDE / OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
