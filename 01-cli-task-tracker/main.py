@@ -10,7 +10,8 @@ def print_help() -> None:
         """Task Tracker CLI - Manage your tasks from the terminal
 
 Usage:
-  python main.py <command> [arguments]
+  task-cli <command> [arguments]
+  (or python main.py <command> [arguments])
 
 Commands:
   add "<description>"           Add a new task
@@ -23,6 +24,7 @@ Commands:
   help, --help, -h              Display this help guide
 """
     )
+
 
 
 def format_timestamp(iso_str: str) -> str:

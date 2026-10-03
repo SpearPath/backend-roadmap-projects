@@ -41,9 +41,11 @@ This project demonstrates a clean **Layered Architecture** with distinct separat
 
 ## Usage
 
+You can use either `task-cli` (via `task-cli.bat` on Windows) or `python main.py`:
+
 ### 1. Adding a Task
 ```bash
-python main.py add "Buy groceries"
+task-cli add "Buy groceries"
 # Output: Task added successfully (ID: 1)
 ```
 
