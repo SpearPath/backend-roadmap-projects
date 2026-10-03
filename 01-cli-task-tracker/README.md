@@ -2,7 +2,8 @@
 
 A lightweight, zero-dependency command line interface (CLI) to track and manage your daily tasks, built with Python standard library.
 
-Designed according to the [roadmap.sh Task Tracker project specification](https://roadmap.sh/projects/task-tracker).
+- Project URL: https://roadmap.sh/projects/task-tracker
+- Designed according to the [roadmap.sh Task Tracker project specification](https://roadmap.sh/projects/task-tracker).
 
 ---
 
